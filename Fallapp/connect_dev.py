@@ -45,7 +45,7 @@ modal = Modal(
 #st.button('test', on_click=open_page, args=('https://www.mozilla.org/',))
 
 # Streamlit app title
-st.title("Fall detector throu deep learning MLP")
+st.title("Fall detector by deep learning MLP")
 
 # Define global variables
 buffer_size = 50  # Number of data points to display
@@ -69,8 +69,8 @@ model = load_fall_model()
 
 # model = load_model("D:/source/Falldetector/Fallapp/model.keras")
 
-# Client URL
-_client_address = "http://192.168.0.104"  # Replace with actual URL
+# Client URL "http://192.168.0.104"
+_client_address = "http://10.10.11.10"  # Replace with actual URL
 PP_CHANNELS = ["accX", "accY", "accZ"]  # Example channels
 
 
