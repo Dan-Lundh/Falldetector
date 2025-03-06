@@ -45,7 +45,7 @@ modal = Modal(
 #st.button('test', on_click=open_page, args=('https://www.mozilla.org/',))
 
 # Streamlit app title
-st.title("Fall detector by deep learning MLP")
+st.title("Real time Fall detector - deep learning MLP")
 
 # Define global variables
 buffer_size = 50  # Number of data points to display
